@@ -1,0 +1,57 @@
+* {
+    font-family: 'Jost', sans-serif;
+}
+
+.main_box{
+    background-color: #a0b6db;
+    width: 400px;
+    height: 500px;
+    border: 1px solid steelblue;
+    text-align: center;
+    margin: auto;
+    margin-top: 80px;
+    border-radius: 20px;
+}
+
+.heading{
+    text-transform: capitalize;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.main_box input{
+    padding: 10px 20px;
+    width: 80%;
+    margin-top: 20px;
+    font-size: 22px;
+    border: 1px solid white;
+}
+
+.fas{
+    font-size: 40px;
+}
+
+.div_city {
+    font-weight: bold;
+    margin-top: 150px;
+    display: grid;
+}
+
+.fa-street-view {
+    position: relative;
+    animation-name: up-down;
+    animation-duration: 2s;
+    animation: left-rigth 2s ease-in-out infinite alternate-reverse both;
+  }
+  
+  @keyframes left-rigth {
+    0%   {left:10px;}
+    100% {left:-10px;}
+  }
+
+  .not-found{
+      margin-top: 20px;
+      font-size: 20px;
+      font-weight: bold;
+  }
+  
